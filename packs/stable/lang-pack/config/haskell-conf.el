@@ -2,6 +2,7 @@
 (require 'haskell-font-lock)
 (require 'haskell-simple-indent)
 (require 'haskell-mode)
+(require 'haskell)
 
 
 (add-to-list 'auto-mode-alist        '("\\.\\(?:[gh]s\\|hi\\)\\'" . haskell-mode))
